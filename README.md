@@ -1,6 +1,6 @@
 # Vanime-Api
 
-Es una API que nos permitirá interectuar con el sitio animeflv.net de una manera rápida, sencilla y desde la terminal.
+Es una API que nos permitirá interectuar con el sitio animeflv.net de una manera rápida, sencilla y desde cualquier emulador de terminal.
 
 ### Instalación
 Instalación y actualización usando git:
