@@ -10,11 +10,12 @@ class Vanime:
 
     def search(self, value: str):
         """Busca animes segun el texto recibido"""
-        try:
-            data = self.session.post('https://www3.animeflv.net/api/animes/search',
-                                     data={'value': value})
-        except exceptions.JSONDecodeError:
-            self.search()
+        data = self.session.post('https://www3.animeflv.net/api/animes/search',
+                                 data={'value': value})
+
+        recapcha = api_utils.recapcha(data.text)
+        if recapcha:
+            return recapcha
 
         content = ""
         for i in data.json():
