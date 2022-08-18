@@ -3,3 +3,4 @@ test.py
 __pycache__/
 .pytest_cache/
 Vanime.egg-info/
+build/
