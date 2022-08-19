@@ -15,34 +15,25 @@ $ python3 vanime.py :h
 ```bash
 # Buscar un anime
 $ python3 vanime.py :b "black lagoon"
-╭──────────────────────────────────────────── Black Lagoon ────────────────────────────────────────────╮
-| Titulo: Black Lagoon                                                                                     
-|
-| Tipo: tv                                                                                                  
-|
-| Slug: black-lagoon                                                                                       
-|                                                         
-| Enlace: https://www3.animeflv.net/anime/black-lagoon                                                     
-|                                                                                
-╰──────────────────────────────────────────────────────────────────────────────────────────────────────╯
-╭───────────────────────────────── Black Lagoon: Roberta's Blood Trail ─────────────────────────────────╮
-| Titulo: Black Lagoon: Roberta's Blood Trail                                                               
-|
-| Tipo: ova                                                                                                 
-|
-| Slug: black-lagoon-robertas-blood-trail                                                                   
-|
-| Enlace: https://www3.animeflv.net/anime/black-lagoon-robertas-blood-trail                                 
-|                                                                                                          
-╰────────────────────────────────────────────────────────────────────────────────────────────────────────╯
-╭─────────────────────────────────── Black Lagoon: The Second Barrage ───────────────────────────────────╮
-| Titulo: Black Lagoon: The Second Barrage                                                                  
-|
-| Tipo: tv                                                                                                  
-|
-| Slug: black-lagoon-2                                                                                      
-|
-| Enlace: https://www3.animeflv.net/anime/black-lagoon-2                                                    
-|                                                                                    
-╰────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭─────────────────────────────────────────────────────────────────────────── Black Lagoon ────────────────────────────────────────────────────────────────────────────╮
+│ Titulo: Black Lagoon                                                                                                                                                │
+│ Tipo: tv                                                                                                                                                            │
+│ Slug: black-lagoon                                                                                                                                                  │
+│ Enlace: https://www3.animeflv.net/anime/black-lagoon                                                                                                                │
+│                                                                                                                                                                     │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭──────────────────────────────────────────────────────────────── Black Lagoon: Roberta's Blood Trail ────────────────────────────────────────────────────────────────╮
+│ Titulo: Black Lagoon: Roberta's Blood Trail                                                                                                                         │
+│ Tipo: ova                                                                                                                                                           │
+│ Slug: black-lagoon-robertas-blood-trail                                                                                                                             │
+│ Enlace: https://www3.animeflv.net/anime/black-lagoon-robertas-blood-trail                                                                                           │
+│                                                                                                                                                                     │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭───────────────────────────────────────────────────────────────── Black Lagoon: The Second Barrage ──────────────────────────────────────────────────────────────────╮
+│ Titulo: Black Lagoon: The Second Barrage                                                                                                                            │
+│ Tipo: tv                                                                                                                                                            │
+│ Slug: black-lagoon-2                                                                                                                                                │
+│ Enlace: https://www3.animeflv.net/anime/black-lagoon-2                                                                                                              │
+│                                                                                                                                                                     │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ```
