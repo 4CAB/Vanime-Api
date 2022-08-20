@@ -8,13 +8,13 @@ Instalación y actualización usando git:
 $ git clone https://github.com/4CAB/Vanime-Api.git
 $ cd Vanime-Api
 $ pip install .
-$ python3 vanime.py :h
+$ vanime :h
 ```
 
 ## Ejemplo
 ```bash
 # Buscar un anime
-$ python3 vanime.py :b "black lagoon"
+$ vanime :b "black lagoon"
 ╭─────────────────────────────────────────────────────────────────────────── Black Lagoon ────────────────────────────────────────────────────────────────────────────╮
 │ Titulo: Black Lagoon                                                                                                                                                │
 │ Tipo: tv                                                                                                                                                            │
