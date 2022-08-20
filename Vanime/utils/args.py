@@ -1,30 +1,14 @@
-import argparse
+import click
 
 
-def args():
-    parser = argparse.ArgumentParser(prefix_chars=':')
-    parser.add_argument(':b',
-                        help='Busca un anime. | :b "black clover"',
-                        dest='buscar')
+@click.option(':b', 'buscar', help='Busca un anime. | :b "black clover"')
+@click.option(':i', 'info', help='Obtiene información de un anime. | :i "slug"')
+@click.option(':c', 'capitulo', help='Obtiene el capítulo de un anime. | :c "slug" :n 1')
+@click.option(':n', 'numero', help='Indica número de capítulo. Requerido para :c. | :n 1')
+@click.option(':check', 'check', default=True,
+              help='Devuelve sólo los enlaces que funcionen. Opcional de :c. | :check')
 
-    parser.add_argument(':i',
-                        help='Obtiene información de un anime. | :i "slug"',
-                        dest='info')
-
-    parser.add_argument(':c',
-                        help='Obtiene el capítulo de un anime. | :c "slug" :n 1',
-                        dest='capitulo')
-
-    parser.add_argument(':n',
-                        help='Indica número de capítulo. Requerido para :c. | :n 1',
-                        dest='numero')
-
-    parser.add_argument(':check',
-                        help='Devuelve sólo los enlaces que funcionen. Opcional de :c. \
-                        | :check',
-                        nargs='?',
-                        const=True,
-                        dest='check')
-
-    args = parser.parse_args()
-    return args
+@click.command()
+@click.pass_context
+def args(ctx, *args, **kwargs):
+    return kwargs
