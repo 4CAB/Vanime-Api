@@ -1,6 +1,7 @@
-from api import Vanime
-from utils import args
-from utils.formatters import formatter
+#!/usr/bin/env python
+from Vanime.api import Vanime
+from Vanime.utils import args
+from Vanime.utils.formatters import formatter
 from rich import print
 
 
